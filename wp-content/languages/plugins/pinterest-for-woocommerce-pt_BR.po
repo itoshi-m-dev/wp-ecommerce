@@ -1,0 +1,524 @@
+# Translation of Plugins - Pinterest for WooCommerce - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Pinterest for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-24 18:09:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Pinterest for WooCommerce - Stable (latest release)\n"
+
+#: class-pinterest-for-woocommerce.php:153
+msgid "Cloning this class is forbidden."
+msgstr "É proibido clonar essa classe."
+
+#: class-pinterest-for-woocommerce.php:162
+msgid "Unserializing instances of this class is forbidden."
+msgstr "É proibido não serializar as instâncias desta classe."
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:488
+msgid "Cheatin' huh?"
+msgstr "Trapaceando?"
+
+#. Translators: 1: Request method 2: Request endpoint 3: Response status code
+#. 4: Response message 5: Pinterest code
+#: src/API/Base.php:131
+msgid ""
+"%1$s Request: %2$s\n"
+"Status Code: %3$s\n"
+"API response: %4$s\n"
+"Pinterest Code: %5$s"
+msgstr ""
+"%1$s Solicitação: %2$s\n"
+"Código de status: %3$s\n"
+"Resposta da API: %4$s\n"
+"Código do Pinterest: %5$s"
+
+#. Translators: 1: Request method 2: Request endpoint 3: Response status code
+#. 4: Response message
+#: src/API/Base.php:153
+msgid ""
+"%1$s Request: %2$s\n"
+"Status Code: %3$s\n"
+"API response: %4$s"
+msgstr ""
+"%1$s Solicitação: %2$s\n"
+"Código de status: %3$s\n"
+"Resposta da API: %4$s"
+
+#: src/Notes/Collection/AbstractCompleteOnboarding.php:72
+msgid "Complete setup"
+msgstr "Conclua a configuração"
+
+#: src/Notes/Collection/CatalogSyncErrors.php:87
+msgid "Review issues affecting your connection with Pinterest"
+msgstr "Analise os problemas que estão afetando sua conexão com o Pinterest"
+
+#: src/Notes/Collection/CatalogSyncErrors.php:97
+msgid "Your product sync to Pinterest was unsuccessful. To complete your connection, Review and resolve issues in the extension."
+msgstr "A sincronização do seu produto com o Pinterest não foi concluída. Para concluir a conexão, analise e resolva os problemas na extensão."
+
+#: src/Notes/Collection/CatalogSyncErrors.php:109
+msgid "Review issues"
+msgstr "Analisar problemas"
+
+#: src/Notes/Collection/CompleteOnboardingAfterThreeDays.php:31
+msgid "Reach more shoppers by connecting with Pinterest"
+msgstr "Alcance mais compradores conectando-se com o Pinterest"
+
+#: src/Notes/Collection/CompleteOnboardingAfterThreeDays.php:41
+msgid "Complete setting up Pinterest for WooCommerce to get your catalog in front of a large, engaged audience who are ready to buy! Create or connect your Pinterest business account to sync your product catalog and turn your products into shoppable Pins."
+msgstr "Conclua a configuração do Pinterest para WooCommerce e exiba seu catálogo para um público grande e engajado que está pronto para comprar! Crie ou conecte sua conta business do Pinterest para sincronizar seu catálogo de produtos e transformar seus produtos em Pins compráveis."
+
+#: src/Notes/Collection/CompleteOnboardingReminderAfterSevenDays.php:31
+msgid "Reminder: Connect Pinterest for WooCommerce"
+msgstr "Lembrete: conecte o Pinterest para WooCommerce"
+
+#: src/Notes/Collection/CompleteOnboardingReminderAfterSevenDays.php:41
+msgid "Finish setting up Pinterest for WooCommerce to reach over 400 million shoppers and inspire their next purchase."
+msgstr "Conclua a configuração do Pinterest para WooCommerce e alcance mais de 400 milhões de consumidores para inspirar novas compras."
+
+#: src/Notes/Collection/EnableCatalogSync.php:62
+msgid "Notice: Your products aren’t synced on Pinterest"
+msgstr "Aviso: seus produtos não estão sincronizados no Pinterest"
+
+#: src/Notes/Collection/EnableCatalogSync.php:72
+msgid "Your Catalog sync with Pinterest has been disabled. Select “Enable Product Sync” to sync your products and reach shoppers on Pinterest."
+msgstr "A sincronização do seu catálogo com o Pinterest foi desativada. Selecione “Enable Product Sync” (Ativar sincronização de produtos) para sincronizar seus produtos e alcançar consumidores no Pinterest."
+
+#: src/Notes/Collection/EnableCatalogSync.php:84
+msgid "Enable Sync"
+msgstr "Ativar sincronização"
+
+#: views/inputs/google-category.php:36
+msgid "Search for a category…"
+msgstr "Pesquisar uma categoria…"
+
+#: src/API/Options.php:62
+msgid "Missing option parameters."
+msgstr "Parâmetros de opção ausentes."
+
+#: src/API/Options.php:68
+msgid "There was an error saving the settings."
+msgstr "Ocorreu um erro ao salvar as configurações."
+
+#: src/FeedGenerator.php:141
+msgid "Feed generation queued."
+msgstr "Geração do feed enfileirada."
+
+#: src/FeedGenerator.php:152
+msgid "Feed generation start. Preparing temporary files."
+msgstr "Início da geração do feed. Preparando arquivos temporários."
+
+#: src/FeedGenerator.php:198
+msgid "Feed generation end. Moving files to the final destination."
+msgstr "Fim da geração do feed. Movendo arquivos para o destino final."
+
+#: src/FeedGenerator.php:213
+msgid "Feed generated successfully."
+msgstr "O feed foi gerado."
+
+#. translators: number of products
+#: src/FeedGenerator.php:301
+msgid "Feed batch generated. Wrote %s products to the feed file."
+msgstr "Feed batch generated. Wrote %s products to the feed file."
+
+#. translators: 1: temporary file name 2: final file name
+#: src/FeedFileOperations.php:135
+msgid "Could not rename %1$s to %2$s"
+msgstr "Não foi possível renomear %1$s como %2$s"
+
+#: class-pinterest-for-woocommerce.php:669
+msgid "Response error on disconnect merchant."
+msgstr "Erro de resposta ao desconectar o comerciante."
+
+#: class-pinterest-for-woocommerce.php:684
+msgid "There was an error disconnecting the Advertiser."
+msgstr "Ocorreu um erro ao desconectar o anunciante."
+
+#: class-pinterest-for-woocommerce.php:686
+#: class-pinterest-for-woocommerce.php:769
+msgid "There was an error disconnecting the Advertiser. Please try again."
+msgstr "Ocorreu um erro ao desconectar o anunciante. Tente novamente."
+
+#: src/Admin/Product/Attributes/AttributesForm.php:128
+msgid "Default"
+msgstr "Padrão"
+
+#: src/Admin/Product/Attributes/Input/ConditionInput.php:27
+msgid "Condition"
+msgstr "Condição"
+
+#: src/Admin/Product/Attributes/Input/ConditionInput.php:28
+msgid "Condition or state of the item."
+msgstr "Condição ou estado do item."
+
+#: src/Admin/Product/Attributes/Input/GoogleCategoryInput.php:27
+msgid "Google Category"
+msgstr "Categoria do Google"
+
+#: src/Admin/Product/Attributes/Input/GoogleCategoryInput.php:28
+msgid "Categorization of the product based on the standardized Google Product Taxonomy."
+msgstr "A categorização do produto é baseada na taxonomia de produtos do Google padronizada."
+
+#: src/API/AdvertiserConnect.php:58
+msgid "Missing advertiser or tag parameters."
+msgstr "Parâmetros de tag ou anunciante ausentes."
+
+#: src/API/AdvertiserConnect.php:101
+msgid "The advertiser could not be connected to Pinterest."
+msgstr "O anunciante não pôde ser conectado ao Pinterest."
+
+#: src/API/AdvertiserConnect.php:105
+msgid "Incorrect advertiser ID."
+msgstr "ID de anunciante incorreto."
+
+#: src/API/AdvertiserConnect.php:154 src/API/AdvertiserConnect.php:168
+msgid "The advertiser could not be disconnected from Pinterest."
+msgstr "Não foi possível desconectar o anunciante do Pinterest."
+
+#. translators: 1: Time string, 2: number of products, 3: opening anchor tag,
+#. 4: closing anchor tag
+#: src/API/FeedState.php:176
+msgid "Last activity: %1$s ago - Wrote %2$s product to %3$sfeed file%4$s."
+msgid_plural "Last activity: %1$s ago - Wrote %2$s products to %3$sfeed file%4$s."
+msgstr[0] "Última atividade: há %1$s — %2$s produto escrito para %3$sarquivo de feed%4$s."
+msgstr[1] "Última atividade: %1$s atrás — %2$s produtos escritos para %3$sarquivo de feed%4$s."
+
+#. translators: 1: Time string, 2: total number of products, 3: opening anchor
+#. tag, 4: closing anchor tag
+#: src/API/FeedState.php:196
+msgid "Successfully generated %1$s ago - Wrote %2$s product to %3$sfeed file%4$s"
+msgid_plural "Successfully generated %1$s ago - Wrote %2$s products to %3$sfeed file%4$s"
+msgstr[0] "Gerado há %1$s — %2$s produto escrito para %3$sarquivo de feed%4$s"
+msgstr[1] "Gerado há %1$s atrás — %2$s produtos escritos para %3$sarquivo de feed%4$s"
+
+#: src/API/FeedState.php:474
+msgid "The feed is queued for processing."
+msgstr "O feed está enfileirado para processamento."
+
+#: src/Feeds.php:46 src/Feeds.php:88
+msgid "Wrong feed info."
+msgstr "As informações do feed estão incorretas."
+
+#: src/Feeds.php:58
+msgid "No feed found with the requested ID."
+msgstr "Nenhum feed com o ID solicitado foi encontrado."
+
+#: src/Merchants.php:71
+msgid "Wrong response when trying to create or update merchant."
+msgstr "Resposta incorreta ao tentar criar ou atualizar o comerciante."
+
+#: src/Merchants.php:79
+msgid "There was an error trying to get the merchant object."
+msgstr "Ocorreu um erro ao tentar acessar o objeto do comerciante."
+
+#: src/Product/Attributes/Condition.php:48
+msgid "New"
+msgstr "New"
+
+#: src/Product/Attributes/Condition.php:49
+msgid "Refurbished"
+msgstr "Refurbished"
+
+#: src/Product/Attributes/Condition.php:50
+msgid "Used"
+msgstr "Used"
+
+#. Translators: The error description
+#: src/Tracking.php:617
+msgid "Advertiser connected successfully"
+msgstr "Anunciante conectado"
+
+#: views/attributes/tab-panel.php:30
+msgid "Product attributes"
+msgstr "Atributos do produto"
+
+#: views/attributes/tab-panel.php:31
+msgid "As this is a variable product, you can add additional product attributes by going to Variations > Select one variation > Pinterest."
+msgstr "Como esse é um produto variável, você pode adicionar outros atributos de produto em Variations > Select one variation > Pinterest (Variações > Selecionar uma variação > Pinterest)."
+
+#. Plugin Name of the plugin
+msgid "Pinterest for WooCommerce"
+msgstr "Pinterest para WooCommerce"
+
+#. Plugin URI of the plugin
+msgid "https://woocommerce.com/products/pinterest-for-woocommerce/"
+msgstr "https://woocommerce.com/products/pinterest-for-woocommerce/"
+
+#. Description of the plugin
+msgid "Grow your business on Pinterest! Use this official plugin to allow shoppers to Pin products while browsing your store, track conversions, and advertise on Pinterest."
+msgstr "Expanda seus negócios no Pinterest! Use este plug-in oficial para permitir que os compradores adicionem Pins de produtos enquanto navegam na sua loja, rastrear as conversões e anunciar no Pinterest."
+
+#. Author of the plugin
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#: class-pinterest-for-woocommerce.php:170
+msgid "Only a single instance of this class is allowed. Use singleton."
+msgstr "Apenas uma única instância dessa classe é permitida. Use singleton."
+
+#: class-pinterest-for-woocommerce.php:361
+msgid "Pinterest for WooCommerce requires WooCommerce Admin to be enabled."
+msgstr "O Pinterest para WooCommerce exige que o WooCommerce Admin esteja ativado."
+
+#: class-pinterest-for-woocommerce.php:1149
+msgid "Pinterest for WooCommerce verification page"
+msgstr "Página de verificação do Pinterest para WooCommerce"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:64
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:68
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:95
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:99
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:217
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:224
+#: views/attributes/variations-form.php:32 assets/build/setup-guide.js:6
+#: assets/source/setup-guide/index.js:52
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:79
+#: assets/build/setup-guide.js:4
+#: assets/source/components/navigation-classic/main-tab-nav.js:16
+msgid "Catalog"
+msgstr "Catálogo"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:110
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:158
+msgid "Setup Pinterest"
+msgstr "Configurar o Pinterest"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:127
+#: assets/build/setup-guide.js:4 assets/build/setup-guide.js:6
+#: assets/source/components/navigation-classic/main-tab-nav.js:26
+#: assets/source/setup-guide/index.js:82
+msgid "Connection"
+msgstr "Conexão"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:140
+#: assets/build/setup-guide.js:4 assets/build/setup-guide.js:6
+#: assets/source/components/navigation-classic/main-tab-nav.js:21
+#: assets/source/setup-guide/index.js:95
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:170
+msgid "Landing page"
+msgstr "Página de destino"
+
+#. translators: 1: composer command. 2: plugin directory
+#: pinterest-for-woocommerce.php:79 pinterest-for-woocommerce.php:97
+msgid "Your installation of the Pinterest for WooCommerce plugin is incomplete. Please run %1$s within the %2$s directory."
+msgstr "Sua instalação do plugin do Pinterest para WooCommerce está incompleta. Execute %1$s no diretório %2$s."
+
+#: src/API/Advertisers.php:55
+msgid "No advertiser exists."
+msgstr "Não existem anunciantes."
+
+#: src/API/Advertisers.php:59 src/API/Tags.php:58
+#: src/PinterestSyncSettings.php:113
+msgid "Response error"
+msgstr "Erro na resposta"
+
+#: src/API/Auth.php:74
+msgid "Something went wrong with your attempt to authorize this App. Please try again."
+msgstr "Ocorreu um erro na sua tentativa de autorizar esse aplicativo. Tente novamente."
+
+#: src/API/Auth.php:97
+msgid "Empty response, please try again later."
+msgstr "Resposta vazia. Tente novamente mais tarde."
+
+#: src/API/Base.php:289
+msgid "Reconnect to your Pinterest account"
+msgstr "Entre novamente na sua conta do Pinterest"
+
+#: src/API/Base.php:344
+msgid "Empty body"
+msgstr "Corpo vazio"
+
+#: src/API/Base.php:415 src/API/Base.php:516 src/Merchants.php:139
+msgid "Auto-created by Pinterest for WooCommerce"
+msgstr "Criado automaticamente pelo Pinterest para WooCommerce"
+
+#: src/API/FeedIssues.php:87
+msgid "Error downloading feed issues file from Pinterest."
+msgstr "Erro ao baixar do Pinterest o arquivo de problemas no feed."
+
+#: src/API/FeedIssues.php:131
+msgid "Invalid product"
+msgstr "Produto inválido"
+
+#: src/API/FeedIssues.php:138
+msgid "(Variation)"
+msgstr "(Variação)"
+
+#: src/API/FeedIssues.php:291
+msgid "Could not get feed report from Pinterest."
+msgstr "Não foi possível acessar o relatório do feed do Pinterest."
+
+#: src/API/FeedState.php:128 src/API/FeedState.php:233
+msgid "XML feed"
+msgstr "Feed XML"
+
+#: src/API/FeedState.php:130
+msgid "Product sync is disabled."
+msgstr "A sincronização do produto está desativada."
+
+#. translators: 1: The URL of the settings page
+#: src/ProductSync.php:191
+msgid "Visit the <a href=\"%1$s\">settings</a> page to enable it."
+msgstr "Acesse a página de <a href=\"%1$s\">configurações</a> para ativá-la."
+
+#: src/API/FeedState.php:172
+msgid "Feed generation in progress."
+msgstr "Geração do feed em andamento."
+
+#: src/API/FeedState.php:192
+msgid "Up to date"
+msgstr "Atualizado"
+
+#: src/API/FeedState.php:212
+msgid "Feed generation will start shortly."
+msgstr "A geração do feed começará em breve."
+
+#: src/API/FeedState.php:217
+msgid "Feed configuration will start shortly."
+msgstr "A configuração do feed começará em breve."
+
+#: src/API/FeedState.php:222 src/API/FeedState.php:274 src/Feeds.php:42
+#: src/Feeds.php:84
+msgid "Could not get feed info."
+msgstr "Não foi possível acessar as informações do feed."
+
+#. Translators: %1$s Time string, %2$s error message
+#: src/API/FeedState.php:225
+msgid "Last activity: %1$s ago - %2$s"
+msgstr "Última atividade: há %1$s — %2$s"
+
+#: src/API/FeedState.php:262 src/API/FeedState.php:311
+msgid "Product feed not yet configured on Pinterest."
+msgstr "Feed de produtos ainda não configurado no Pinterest."
+
+#: src/API/FeedState.php:268
+msgid "Could not get merchant info."
+msgstr "Não foi possível acessar informações do comerciante."
+
+#: src/API/FeedState.php:278
+msgid "Product feed not active."
+msgstr "O feed de produtos não está ativo."
+
+#: src/API/FeedState.php:286
+msgid "Product feed configured for ingestion on Pinterest"
+msgstr "Feed de produtos configurado para ingestão no Pinterest"
+
+#. Translators: %1$s The URL of the product feed, %2$s Time string
+#: src/API/FeedState.php:292
+msgid "Pinterest will fetch your <a href=\"%1$s\" target=\"_blank\">product feed</a> every %2$s"
+msgstr "O Pinterest buscará seu <a href=\"%1$s\" target=\"_blank\">feed de produtos</a> a cada %2$s"
+
+#: src/API/FeedState.php:303
+msgid "Product feed pending approval on Pinterest."
+msgstr "Feed de produtos com aprovação pendente no Pinterest."
+
+#: src/API/FeedState.php:307
+msgid "Product feed declined by Pinterest"
+msgstr "Feed de produtos recusado pelo Pinterest"
+
+#: src/API/FeedState.php:319
+msgid "Remote feed setup"
+msgstr "Configuração remota do feed"
+
+#: src/API/FeedState.php:415
+msgid "Feed is not registered with Pinterest."
+msgstr "O feed não está registrado no Pinterest."
+
+#: src/API/FeedState.php:427
+msgid "Response error when trying to get feed report from Pinterest."
+msgstr "Erro na resposta ao tentar acessar o relatório do feed do Pinterest."
+
+#: src/API/FeedState.php:431
+msgid "Response error. Feed report contains no feed workflow."
+msgstr "Erro na resposta. O relatório do feed não contém fluxos de trabalho."
+
+#: src/API/FeedState.php:447
+msgid "Automatically pulled by Pinterest"
+msgstr "Extraído automaticamente pelo Pinterest"
+
+#. Translators: %1$s Time string, %2$s number of products
+#: src/API/FeedState.php:450 src/API/FeedState.php:461
+msgid "Last pulled: %1$s ago, containing %2$d products"
+msgstr "Last pulled: %1$s ago, containing %2$d products"
+
+#: src/API/FeedState.php:458
+msgid "Processing"
+msgstr "Processando"
+
+#: src/API/FeedState.php:469
+msgid "Feed is under review."
+msgstr "O feed está em análise."
+
+#: src/API/FeedState.php:480
+msgid "Feed ingestion failed."
+msgstr "Falha na ingestão do feed."
+
+#. Translators: %1$s Time difference string
+#: src/API/FeedState.php:483
+msgid "Last attempt: %1$s ago"
+msgstr "Última tentativa: há %1$s"
+
+#: src/API/FeedState.php:493
+msgid "Unknown status in workflow."
+msgstr "Status desconhecido no fluxo de trabalho."
+
+#. Translators: The status text returned by the API.
+#: src/API/FeedState.php:496
+msgid "API returned an unknown status: %1$s"
+msgstr "A API retornou um status desconhecido: %1$s"
+
+#: src/API/FeedState.php:519
+msgid "Remote sync status"
+msgstr "Status da sincronização remota"
+
+#. Translators: The error message as returned by the Pinterest API
+#: src/API/FeedState.php:588
+msgid "Pinterest returned: %1$s"
+msgstr "O Pinterest retornou: %1$s"
+
+#: src/API/HealthCheck.php:65
+msgid "Could not get approval status from Pinterest."
+msgstr "Não foi possível acessar o status de aprovação do Pinterest."
+
+#: src/API/Tags.php:52
+msgid "Advertiser missing"
+msgstr "Anunciante ausente"
+
+#: src/API/Tags.php:70
+msgid "Could not create a tag. Please check the logs for additional information."
+msgstr "Não foi possível criar uma tag. Verifique os logs para obter informações adicionais."
+
+#: src/Crypto.php:95 src/Crypto.php:139
+msgid "Could not decrypt key value. Try reconnecting to Pinterest."
+msgstr "Não foi possível descriptografar o valor da chave. Tente entrar no Pinterest novamente."
+
+#: src/FeedRegistration.php:96
+msgid "Could not register feed."
+msgstr "Não foi possível registrar o feed."
+
+#: src/Merchants.php:84 src/Merchants.php:172
+msgid "Response error when trying to create a merchant or update the existing one."
+msgstr "Erro na resposta ao tentar criar um comerciante ou atualizar o existente."
+
+#: src/Merchants.php:107
+msgid "Response error when trying to get advertisers."
+msgstr "Erro na resposta ao tentar acessar os anunciantes."
+
+#: src/Merchants.php:113
+msgid "No merchant returned in the advertiser's response."
+msgstr "Nenhum comerciante foi retornado na resposta do anunciante."
